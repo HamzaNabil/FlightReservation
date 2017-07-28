@@ -1,0 +1,120 @@
+body {
+   margin: 100;
+   padding: 0;
+}
+.form{
+	z-index:20;
+	position:relative;
+	margin-left:100px;
+	margin-top:-450px;
+}
+.round{
+	width:750px;
+	height:250px;
+	background-color: rgba(0, 0, 0, 0.4);
+	position:relative;
+	z-index:100;
+}
+
+.round form{
+ margin-left:50px;	
+ padding-top :50px;
+}
+.round form input{
+ border: 2px solid;
+ border-radius: 6px;
+}
+.round form select{
+ border: 2px solid;
+ border-radius: 6px;
+}
+
+
+.from {
+	float:left;
+	
+}
+.from input{
+	width:300px;
+	;
+	
+}
+.to {
+	
+	float:left;
+	margin-left:50px;
+}
+.to input{
+	width:300px;
+}
+.depart {
+	margin-top:10px;
+	float:left;
+	width:300px;
+	
+}
+.depart input{
+	width:300px;
+	
+}
+.dep1{
+	margin-top:50px;
+	position:;
+}
+.dep1 input{
+	width:300px;
+}
+.arrive {
+	width:300px;
+	float:left;
+	
+	margin-left:50px;
+	margin-top:10px;
+}
+.arrive input{
+	width:300px;
+}
+.arrive select{
+	width:300px;
+	height:40px;
+}
+.adult {
+	margin-top:10px;
+	float:left;
+}
+.adult input{
+	width:140px;
+}
+.child {
+	margin-top:10px;
+	float:left;
+	margin-left:20px;
+}
+.child input{
+	width:140px;
+}
+.search{
+	float: right;
+	margin-top:10px;
+	
+}
+#f2{
+	display:none;}
+
+.show1{
+	background-color: rgba(0, 0, 0, 0.4);
+	color:#FFF;
+	box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
+}
+.show2{
+	background-color: rgba(0, 0, 0, 0.4);
+	color:#999;
+	box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
+}
+html,body,h1,h2,h3,h4,h5 {font-family: "Lato", sans-serif}
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+#country-list{float:left;list-style:none;margin:0;padding:0;width:190px; position:absolute; z-index:100;}
+#country-list li{padding: 10px; background:#FAFAFA;border-bottom:#F0F0F0 1px solid; width:300px; z-index:100;}
+#country-list li:hover{background:#F0F0F0; z-index:100;}
